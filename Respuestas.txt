@@ -1,4 +1,4 @@
-Para verificar si Git está instalado y conocer su versión actual, puedes usar el siguiente comando en la terminal:
+1. Para verificar si Git está instalado y conocer su versión actual, puedes usar el siguiente comando en la terminal:
 
 git --version
 
