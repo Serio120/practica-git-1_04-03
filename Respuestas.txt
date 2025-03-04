@@ -9,3 +9,12 @@ Si no tienes Git instalado, puedes instalarlo de la siguiente manera:
    - Descarga el instalador para Windows.
    - Ejecuta el instalador y sigue las instrucciones en pantalla.
 
+
+
+Ejercicio 2: Crear un Directorio de Trabajo
+
+Preguntas a responder:
+
+• ¿Qué comando usas para crear un nuevo directorio?
+• ¿Cómo puedes cambiar a un directorio específico desde la terminal?
+
