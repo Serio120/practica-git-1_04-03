@@ -1,46 +1,57 @@
-
-
-Si no tienes Git instalado, puedes instalarlo de la siguiente manera:
-
-2. Usando el instalador oficial:
-   - Ve al sitio web oficial de Git: [https://git-scm.com/](https://git-scm.com/)
-   - Descarga el instalador para Windows.
-   - Ejecuta el instalador y sigue las instrucciones en pantalla.
-
 Ejercicio 1: Verificar la Instalación de Git
-
 Preguntas a responder:
 
 • ¿Qué comando debes usar para verificar la versión de Git?
-      Para verificar si Git está instalado y conocer su versión actual, puedes usar el siguiente comando en la terminal:
       git --version
 
 •  Si no tienes Git instalado, ¿qué opciones tienes para instalarlo?
-
+       Usando el instalador oficial:
+         - Ve al sitio web oficial de Git: [https://git-scm.com/]
+         - Descarga el instalador para Windows.
+         - Ejecuta el instalador y sigue las instrucciones en pantalla.
 
 
 Ejercicio 2: Crear un Directorio de Trabajo
-
 Preguntas a responder:
 
 • ¿Qué comando usas para crear un nuevo directorio?
+   - (Nuevo directorio) mkdir nombre_del_directorio
+      
 • ¿Cómo puedes cambiar a un directorio específico desde la terminal?
+   - cd ruta/del/directorio
 
 
+Ejercicio 3: Inicializar un Repositorio Git
 Preguntas a responder:
 
-• 
-• 
+• ¿Qué comando usas para inicializar Git en un directorio?
+   - git init
+• ¿Cómo puedes confirmar que Git ha sido inicializado correctamente?
+   - git status
 
+
+Ejercicio 4: Comprobar el Estado del Repositorio
 Preguntas a responder:
 
-• 
-• 
+• ¿Qué comando usas para comprobar el estado del repositorio?
+   - git status
+• ¿Qué significa cuando Git dice que no hay archivos rastreados?
+   - Cuando Git dice que no hay archivos rastreados, significa que no hay archivos en el repositorio que estén siendo seguidos por Git       para cambios. Los archivos no rastreados son aquellos que existen en el directorio de trabajo pero no han sido añadidos al índice       (staging area). Para empezar a rastrear un archivo, debes usar el comando:
+      git add nombre_del_archivo
+      Esto añadirá el archivo al índice, y Git comenzará a rastrear los cambios en ese archivo.
 
+
+Ejercicio 5: Crear un Archivo y Verificar el Estado
 Preguntas a responder:
 
-• 
-• 
+• ¿Qué comando usas para crear un archivo nuevo desde la terminal?
+   - En Command Prompt o PowerShell type nul > README.md
+   - En consola de git touch README.md
+• ¿Qué diferencia observas en el estado del repositorio después de crear el archivo?
+   - Que  se ha creado el archivo README.md
+   - Que no hay commints
+   - Que README.md no se ha rastreado.
+   - Que hay que usar git add para rastrear estos archivos
 
 Preguntas a responder:
 
