@@ -1,6 +1,4 @@
-1. Para verificar si Git está instalado y conocer su versión actual, puedes usar el siguiente comando en la terminal:
 
-git --version
 
 Si no tienes Git instalado, puedes instalarlo de la siguiente manera:
 
@@ -8,6 +6,16 @@ Si no tienes Git instalado, puedes instalarlo de la siguiente manera:
    - Ve al sitio web oficial de Git: [https://git-scm.com/](https://git-scm.com/)
    - Descarga el instalador para Windows.
    - Ejecuta el instalador y sigue las instrucciones en pantalla.
+
+Ejercicio 1: Verificar la Instalación de Git
+
+Preguntas a responder:
+
+• ¿Qué comando debes usar para verificar la versión de Git?
+      Para verificar si Git está instalado y conocer su versión actual, puedes usar el siguiente comando en la terminal:
+      git --version
+
+•  Si no tienes Git instalado, ¿qué opciones tienes para instalarlo?
 
 
 
@@ -18,3 +26,23 @@ Preguntas a responder:
 • ¿Qué comando usas para crear un nuevo directorio?
 • ¿Cómo puedes cambiar a un directorio específico desde la terminal?
 
+
+Preguntas a responder:
+
+• 
+• 
+
+Preguntas a responder:
+
+• 
+• 
+
+Preguntas a responder:
+
+• 
+• 
+
+Preguntas a responder:
+
+• 
+• 
