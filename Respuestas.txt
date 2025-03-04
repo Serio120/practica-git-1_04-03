@@ -3,7 +3,7 @@ git --version
 
 Si no tienes Git instalado, puedes instalarlo de la siguiente manera:
 
-2. **Usando el instalador oficial:
+2. Usando el instalador oficial:
    - Ve al sitio web oficial de Git: [https://git-scm.com/](https://git-scm.com/)
    - Descarga el instalador para Windows.
    - Ejecuta el instalador y sigue las instrucciones en pantalla.
