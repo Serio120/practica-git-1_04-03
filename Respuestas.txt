@@ -1,12 +1,12 @@
-Practica: Introducción a Git - 40 Ejercicios Besicos
+Practica: Introducción a Git - 40 Ejercicios Básicos
 
 
 
-Ejercicio 1: Verificar la Instalacien de Git
+Ejercicio 1: Verificar la Instalación de Git
 Preguntas a responder:
-- eQue comando debes usar para verificar la versien de Git?  
+- ¿Que comando debes usar para verificar la versien de Git?  
 	git --version
-- Si no tienes Git instalado, eque opciones tienes para instalarlo?
+- Si no tienes Git instalado, ¿Que opciones tienes para instalarlo?
 	Usando el instalador oficial:
       	- Ir al sitio web oficial de Git: [https://git-scm.com/]
       	- Descarga el instalador para Windows.
@@ -16,28 +16,29 @@ Preguntas a responder:
 
 Ejercicio 2: Crear un Directorio de Trabajo
 Preguntas a responder:
-- eQue comando usas para crear un nuevo directorio?
+- ¿Que comando usas para crear un nuevo directorio?
 	- (Nuevo directorio) mkdir nombre_del_directorio
-- eCemo puedes cambiar a un directorio especefico desde la terminal?
+- ¿Como puedes cambiar a un directorio especefico desde la terminal?
 	- cd ruta/del/directorio
 
 
 
-Ejercicio 3: Inicializar un Repositorio Git
+Ejercicio 3: Inicializar un Repositorio Git.
 Preguntas a responder:
-- eQue comando usas para inicializar Git en un directorio?
+- ¿Que comando usas para inicializar Git en un directorio?
 	- git init
-- eCemo puedes confirmar que Git ha sido inicializado correctamente?
+- ¿Como puedes confirmar que Git ha sido inicializado correctamente?
 	- git status
 
 
 
 Ejercicio 4: Comprobar el Estado del Repositorio
 Preguntas a responder:
-- eQue comando usas para comprobar el estado del repositorio?
+- ¿Que comando usas para comprobar el estado del repositorio?
 	- git status
-- eQue significa cuando Git dice que no hay archivos rastreados?
-	 - Cuando Git dice que no hay archivos rastreados, significa que no hay archivos en el 		repositorio que esten siendo seguidos por Git para cambios. Los archivos no rastreados 	son 	aquellos que existen en el directorio de trabajo pero no han sido aeadidos al endice       	(staging area). Para empezar a rastrear un archivo, debes usar el comando:
+- ¿Que significa cuando Git dice que no hay archivos rastreados?
+	 - Cuando Git dice que no hay archivos rastreados, significa que no hay archivos en el repositorio que esten siendo seguidos por Git para cambios.
+	  Los archivos no rastreados son aquellos que existen en el directorio de trabajo pero no han sido aeadidos al indice (staging area). Para empezar a rastrear un archivo, debes usar el comando:
      		 git add nombre_del_archivo
       	Esto aeadire el archivo al endice, y Git comenzare a rastrear los cambios en ese archivo.
 
@@ -45,7 +46,7 @@ Preguntas a responder:
 
 Ejercicio 5: Crear un Archivo y Verificar el Estado
 Preguntas a responder:
-- eQue comando usas para crear un archivo nuevo desde la terminal? 
+- ¿Que comando usas para crear un archivo nuevo desde la terminal? 
 	- En Command Prompt o PowerShell type nul > README.md
    	- En consola de git touch README.md 
 - eQue diferencia observas en el estado del repositorio despues de crear el 
@@ -56,27 +57,32 @@ archivo?
    	- Que hay que usar git add para rastrear estos archivos
 
 
-Ejercicio 6: Aeadir un Archivo al erea de Preparacien
+Ejercicio 6: Añadir un Archivo al Área de Preparación
 Preguntas a responder: 
-- eQue comando usas para aeadir un archivo al erea de preparacien?
+- ¿Que comando usas para añadir un archivo al erea de preparacien?
 	git add  
-- eQue significa aeadir un archivo al erea de preparacien?
-	Aeadir un archivo al erea de preparacien (staging area) significa que estes marcando ese 	archivo y sus cambios para ser incluidos en el preximo commit. En otras palabras, estes 	preparando el archivo para que sus cambios sean registrados en el historial del repositorio 	cuando realices un commit.
+- ¿Que significa añadir un archivo al Area de preparación?
+	Añadir un archivo al Area de preparación (staging area) significa que estas marcando ese 
+	archivo y sus cambios para ser incluidos en el proximo commit. En otras palabras, estas
+	preparando el archivo para que sus cambios sean registrados en el historial del repositorio
+	cuando realices un commit.
 
 
 Ejercicio 7: Realizar un Commit
 Preguntas a responder:
-- eQue comando usas para realizar un commit? 
+- ¿Que comando usas para realizar un commit? 
 	git commit -m "mensaje"  (Por ejemplo crea el commit mensaje) 
-- ePor que es importante incluir un mensaje claro en cada commit?
+- ¿Por que es importante incluir un mensaje claro en cada commit?
 	Incluir un mensaje claro en cada commit es importante por varias razones:
 	Historial Comprensible:
 	Colaboracien Eficiente:
-	Depuracien y Resolucien de Problemas:
-	Documentacien del Proyecto:
-	Automatizacien y Herramientas:
-	En resumen, mensajes de commit claros y descriptivos mejoran la mantenibilidad, colaboracien 	y eficiencia en el desarrollo de software.
+	Depuración y Resoluciçon de Problemas:
+	Documentación del Proyecto:
+	Automatización y Herramientas:
+	En resumen, mensajes de commit claros y descriptivos mejoran la mantenibilidad, colaboración y
+	eficiencia en el desarrollo de software.
 
+********************
 
 
 Ejercicio 8: Ver el Historial de Commits
