@@ -1,12 +1,12 @@
-Pr�ctica: Introducci�n a Git - 40 Ejercicios B�sicos
+Practica: Introducción a Git - 40 Ejercicios Besicos
 
 
 
-Ejercicio 1: Verificar la Instalaci�n de Git
+Ejercicio 1: Verificar la Instalacien de Git
 Preguntas a responder:
-- �Qu� comando debes usar para verificar la versi�n de Git?  
+- eQue comando debes usar para verificar la versien de Git?  
 	git --version
-- Si no tienes Git instalado, �qu� opciones tienes para instalarlo?
+- Si no tienes Git instalado, eque opciones tienes para instalarlo?
 	Usando el instalador oficial:
       	- Ir al sitio web oficial de Git: [https://git-scm.com/]
       	- Descarga el instalador para Windows.
@@ -16,39 +16,39 @@ Preguntas a responder:
 
 Ejercicio 2: Crear un Directorio de Trabajo
 Preguntas a responder:
-- �Qu� comando usas para crear un nuevo directorio?
+- eQue comando usas para crear un nuevo directorio?
 	- (Nuevo directorio) mkdir nombre_del_directorio
-- �C�mo puedes cambiar a un directorio espec�fico desde la terminal?
+- eCemo puedes cambiar a un directorio especefico desde la terminal?
 	- cd ruta/del/directorio
 
 
 
 Ejercicio 3: Inicializar un Repositorio Git
 Preguntas a responder:
-- �Qu� comando usas para inicializar Git en un directorio?
+- eQue comando usas para inicializar Git en un directorio?
 	- git init
-- �C�mo puedes confirmar que Git ha sido inicializado correctamente?
+- eCemo puedes confirmar que Git ha sido inicializado correctamente?
 	- git status
 
 
 
 Ejercicio 4: Comprobar el Estado del Repositorio
 Preguntas a responder:
-- �Qu� comando usas para comprobar el estado del repositorio?
+- eQue comando usas para comprobar el estado del repositorio?
 	- git status
-- �Qu� significa cuando Git dice que no hay archivos rastreados?
-	 - Cuando Git dice que no hay archivos rastreados, significa que no hay archivos en el 		repositorio que est�n siendo seguidos por Git para cambios. Los archivos no rastreados 	son 	aquellos que existen en el directorio de trabajo pero no han sido a�adidos al �ndice       	(staging area). Para empezar a rastrear un archivo, debes usar el comando:
+- eQue significa cuando Git dice que no hay archivos rastreados?
+	 - Cuando Git dice que no hay archivos rastreados, significa que no hay archivos en el 		repositorio que esten siendo seguidos por Git para cambios. Los archivos no rastreados 	son 	aquellos que existen en el directorio de trabajo pero no han sido aeadidos al endice       	(staging area). Para empezar a rastrear un archivo, debes usar el comando:
      		 git add nombre_del_archivo
-      	Esto a�adir� el archivo al �ndice, y Git comenzar� a rastrear los cambios en ese archivo.
+      	Esto aeadire el archivo al endice, y Git comenzare a rastrear los cambios en ese archivo.
 
 
 
 Ejercicio 5: Crear un Archivo y Verificar el Estado
 Preguntas a responder:
-- �Qu� comando usas para crear un archivo nuevo desde la terminal? 
+- eQue comando usas para crear un archivo nuevo desde la terminal? 
 	- En Command Prompt o PowerShell type nul > README.md
    	- En consola de git touch README.md 
-- �Qu� diferencia observas en el estado del repositorio despu�s de crear el 
+- eQue diferencia observas en el estado del repositorio despues de crear el 
 archivo?
 	- Que  se ha creado el archivo README.md
    	- Que no hay commints
@@ -56,36 +56,36 @@ archivo?
    	- Que hay que usar git add para rastrear estos archivos
 
 
-Ejercicio 6: A�adir un Archivo al �rea de Preparaci�n
+Ejercicio 6: Aeadir un Archivo al erea de Preparacien
 Preguntas a responder: 
-- �Qu� comando usas para a�adir un archivo al �rea de preparaci�n?
+- eQue comando usas para aeadir un archivo al erea de preparacien?
 	git add  
-- �Qu� significa a�adir un archivo al �rea de preparaci�n?
-	A�adir un archivo al �rea de preparaci�n (staging area) significa que est�s marcando ese 	archivo y sus cambios para ser incluidos en el pr�ximo commit. En otras palabras, est�s 	preparando el archivo para que sus cambios sean registrados en el historial del repositorio 	cuando realices un commit.
+- eQue significa aeadir un archivo al erea de preparacien?
+	Aeadir un archivo al erea de preparacien (staging area) significa que estes marcando ese 	archivo y sus cambios para ser incluidos en el preximo commit. En otras palabras, estes 	preparando el archivo para que sus cambios sean registrados en el historial del repositorio 	cuando realices un commit.
 
 
 Ejercicio 7: Realizar un Commit
 Preguntas a responder:
-- �Qu� comando usas para realizar un commit? 
+- eQue comando usas para realizar un commit? 
 	git commit -m "mensaje"  (Por ejemplo crea el commit mensaje) 
-- �Por qu� es importante incluir un mensaje claro en cada commit?
+- ePor que es importante incluir un mensaje claro en cada commit?
 	Incluir un mensaje claro en cada commit es importante por varias razones:
 	Historial Comprensible:
-	Colaboraci�n Eficiente:
-	Depuraci�n y Resoluci�n de Problemas:
-	Documentaci�n del Proyecto:
-	Automatizaci�n y Herramientas:
-	En resumen, mensajes de commit claros y descriptivos mejoran la mantenibilidad, colaboraci�n 	y eficiencia en el desarrollo de software.
+	Colaboracien Eficiente:
+	Depuracien y Resolucien de Problemas:
+	Documentacien del Proyecto:
+	Automatizacien y Herramientas:
+	En resumen, mensajes de commit claros y descriptivos mejoran la mantenibilidad, colaboracien 	y eficiencia en el desarrollo de software.
 
 
 
 Ejercicio 8: Ver el Historial de Commits
 Preguntas a responder:  
-- �Qu� comando usas para ver el historial de commits?
+- eQue comando usas para ver el historial de commits?
 	git log
 	git log --oneline 
-- �Qu� informaci�n muestra el historial de commits?
-	El historial de commits en Git muestra la siguiente informaci�n para cada commit:
+- eQue informacien muestra el historial de commits?
+	El historial de commits en Git muestra la siguiente informacien para cada commit:
 	1. Hash del Commit:
 	2. Autor:
 	3. Fecha:
@@ -95,9 +95,9 @@ Preguntas a responder:
 
 Ejercicio 9: Crear una Nueva Rama
 Preguntas a responder:
-- �Qu� comando usas para crear una nueva rama en Git?
+- eQue comando usas para crear una nueva rama en Git?
 	git branch nombre_de_la_rama
-- �Qu� diferencia hay entre crear una rama y moverte a ella?
+- eQue diferencia hay entre crear una rama y moverte a ella?
 	Crear una rama y moverte a ella son dos acciones distintas en Git.
 	Crear una rama solo establece una nueva rama en el repositorio, mientras que moverte a una 	rama cambia tu contexto de trabajo a esa rama.
 
@@ -106,10 +106,10 @@ Preguntas a responder:
 
 Ejercicio 10: Listar Todas las Ramas
 Preguntas a responder: 
-- �Qu� comando usas para listar todas las ramas en Git?
+- eQue comando usas para listar todas las ramas en Git?
 	git branch
 	git branch -a 
-- �C�mo puedes identificar en qu� rama est�s trabajando actualmente?
+- eCemo puedes identificar en que rama estes trabajando actualmente?
 	git branch
 	Este comando lista todas las ramas locales y coloca un asterisco (*) junto a la rama en la 	que te encuentras actualmente. 
 
@@ -117,59 +117,59 @@ Preguntas a responder:
 
 Ejercicio 11: Cambiar a una Rama Existente
 Preguntas a responder:  
-- �Qu� comando usas para cambiar de rama?
+- eQue comando usas para cambiar de rama?
 	git switch nombre_de_la_rama
 	git checkout nombre_de_la_rama (Veriones Mas Antiguas)
-- �C�mo puedes confirmar en qu� rama est�s trabajando?
+- eCemo puedes confirmar en que rama estes trabajando?
 	git branch
 
 
 
 Ejercicio 12: Crear y Cambiar a una Nueva Rama en un Solo Paso**
 Preguntas a responder:
-- �Qu� comando permite crear y cambiar a una nueva rama en un solo paso?
+- eQue comando permite crear y cambiar a una nueva rama en un solo paso?
 	git switch -c nombre_de_la_nueva_rama
 	git checkout -b nombre_de_la_nueva_rama
-- �Cu�l es la ventaja de usar este comando?
+- eCuel es la ventaja de usar este comando?
 	Eficiencia.
-	Reducci�n de Errores
+	Reduccien de Errores
 	Simplicidad
 	Consistencia
 	En resumen, estos comandos mejoran la productividad y la claridad en el manejo de ramas en 	Git.
 
 
 
-Ejercicio 13: A�adir Archivos al �rea de Preparaci�n con un Comando Abreviado
+Ejercicio 13: Aeadir Archivos al erea de Preparacien con un Comando Abreviado
 Preguntas a responder: 
-- �Qu� comando abreviado puedes usar para a�adir todos los cambios al �rea de 
-preparaci�n? 
+- eQue comando abreviado puedes usar para aeadir todos los cambios al erea de 
+preparacien? 
 	git add . 
-- �Qu� ventajas tiene usar este comando en lugar de a�adir archivos 
+- eQue ventajas tiene usar este comando en lugar de aeadir archivos 
 individualmente?
-	git add . es una forma r�pida y conveniente de preparar todos los cambios para el pr�ximo commit, mejorando la eficiencia y reduciendo la posibilidad de errores.
+	git add . es una forma repida y conveniente de preparar todos los cambios para el preximo commit, mejorando la eficiencia y reduciendo la posibilidad de errores.
 
 
 
 Ejercicio 14: Realizar un Commit con un Mensaje Descriptivo
 Preguntas a responder:**  
-- �Qu� comando usas para realizar un commit?
+- eQue comando usas para realizar un commit?
 	git commit -m
-- �Por qu� es importante escribir mensajes descriptivos en los commits?
+- ePor que es importante escribir mensajes descriptivos en los commits?
 
 
 
 Ejercicio 15: Fusionar Ramas
 Preguntas a responder:
-- �Qu� comando usas para fusionar ramas en Git?
+- ¿Que comando usas para fusionar ramas en Git?
 	git merge 
-- �Qu� sucede si hay conflictos durante la fusi�n?
+- ¿Que sucede si hay conflictos durante la fusien?
 	Git te lo comunica y tienes que resolverlos manualmente
 
 
 Ejercicio 16: Resolver Conflictos entre Ramas 
-Preguntas a responder: 
-- �Qu� ocurre cuando Git detecta un conflicto durante la fusi�n?  
-- �C�mo puedes resolver un conflicto en Git?
+Preguntas a responder:**  
+- eQue ocurre cuando Git detecta un conflicto durante la fusien?  
+- eCemo puedes resolver un conflicto en Git?
 
 ---
 
@@ -178,18 +178,18 @@ Crea un archivo `.gitignore` para excluir ciertos tipos de archivos de ser
 rastreados por Git.
 
 **Instrucciones Detalladas:**  
-1. Crea un archivo llamado `.gitignore` en la ra�z de tu repositorio.  
+1. Crea un archivo llamado `.gitignore` en la raez de tu repositorio.  
 2. Agrega entradas para ignorar archivos como `*.log`, `*.tmp` y cualquier otro 
 tipo de archivo temporal o irrelevante.  
 
 **Preguntas a responder:**  
-- �Qu� es un archivo `.gitignore` y para qu� sirve?  
-- �C�mo puedes especificar qu� tipos de archivos deben ser ignorados?
+- eQue es un archivo `.gitignore` y para que sirve?  
+- eCemo puedes especificar que tipos de archivos deben ser ignorados?
 
 ---
 
-### **Ejercicio 18: Configurar Git para Ignorar Cambios en un Archivo Espec�fico**
-Ignora los cambios en un archivo espec�fico sin eliminarlo del repositorio.
+### **Ejercicio 18: Configurar Git para Ignorar Cambios en un Archivo Especefico**
+Ignora los cambios en un archivo especefico sin eliminarlo del repositorio.
 
 **Instrucciones Detalladas:**  
 1. Selecciona un archivo en tu repositorio que no quieras que Git rastree sus 
@@ -198,9 +198,9 @@ cambios.
 archivo.  
 
 **Preguntas a responder:**  
-- �C�mo puedes hacer que Git ignore los cambios en un archivo espec�fico sin 
+- eCemo puedes hacer que Git ignore los cambios en un archivo especefico sin 
 eliminarlo del repositorio?  
-- �En qu� situaciones ser�a �til esta t�cnica?
+- eEn que situaciones serea etil esta tecnica?
 
 ---
 
@@ -208,25 +208,25 @@ eliminarlo del repositorio?
 Clona un repositorio remoto existente en tu computadora local.
 
 **Instrucciones Detalladas:**  
-1. Busca un repositorio p�blico en GitHub o GitLab.  
+1. Busca un repositorio peblico en GitHub o GitLab.  
 2. Usa el comando adecuado para clonar el repositorio en tu computadora.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para clonar un repositorio remoto?  
-- �Qu� diferencia hay entre clonar un repositorio y crear uno nuevo?
+- eQue comando usas para clonar un repositorio remoto?  
+- eQue diferencia hay entre clonar un repositorio y crear uno nuevo?
 
 ---
 
 ### **Ejercicio 20: Conectarte a GitHub con SSH**
-Configura la autenticaci�n SSH para conectarte a GitHub de forma segura.
+Configura la autenticacien SSH para conectarte a GitHub de forma segura.
 
 **Instrucciones Detalladas:**  
-1. Genera una clave SSH en tu computadora si a�n no tienes una.  
-2. Copia la clave p�blica generada y agr�gala a tu cuenta de GitHub.  
+1. Genera una clave SSH en tu computadora si aen no tienes una.  
+2. Copia la clave peblica generada y agregala a tu cuenta de GitHub.  
 
 **Preguntas a responder:**  
-- �Qu� es SSH y por qu� es importante para trabajar con GitHub?  
-- �C�mo puedes generar una clave SSH en tu computadora?
+- eQue es SSH y por que es importante para trabajar con GitHub?  
+- eCemo puedes generar una clave SSH en tu computadora?
 
 ---
 
@@ -234,27 +234,27 @@ Configura la autenticaci�n SSH para conectarte a GitHub de forma segura.
 Sube tus cambios locales al repositorio remoto en GitHub.
 
 **Instrucciones Detalladas:**  
-1. Crea un repositorio vac�o en GitHub.  
+1. Crea un repositorio vaceo en GitHub.  
 2. Asocia tu repositorio local con el remoto usando el comando adecuado.  
 3. Sube tus cambios locales al repositorio remoto.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para asociar un repositorio local con uno remoto?  
-- �Qu� comando usas para subir cambios locales a un repositorio remoto?
+- eQue comando usas para asociar un repositorio local con uno remoto?  
+- eQue comando usas para subir cambios locales a un repositorio remoto?
 
 ---
 
 ### **Ejercicio 22: Actualizar tu Repositorio Local desde GitHub**
-Descarga los �ltimos cambios del repositorio remoto en GitHub.
+Descarga los eltimos cambios del repositorio remoto en GitHub.
 
 **Instrucciones Detalladas:**  
-1. Sup�n que alguien m�s ha realizado cambios en el repositorio remoto.  
+1. Supen que alguien mes ha realizado cambios en el repositorio remoto.  
 2. Usa el comando adecuado para actualizar tu repositorio local con los cambios 
 remotos.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para descargar cambios del repositorio remoto?  
-- �Qu� pasa si hay conflictos al sincronizar los cambios?
+- eQue comando usas para descargar cambios del repositorio remoto?  
+- eQue pasa si hay conflictos al sincronizar los cambios?
 
 ---
 
@@ -266,8 +266,8 @@ Crea una nueva rama en tu repositorio remoto en GitHub.
 2. Sube esta rama al repositorio remoto en GitHub.  
 
 **Preguntas a responder:**  
-- �C�mo puedes subir una rama local a un repositorio remoto?  
-- �C�mo puedes verificar que la rama ha sido creada correctamente en GitHub?
+- eCemo puedes subir una rama local a un repositorio remoto?  
+- eCemo puedes verificar que la rama ha sido creada correctamente en GitHub?
 
 ---
 
@@ -279,8 +279,8 @@ Elimina una rama local que ya no necesitas.
 2. Usa el comando adecuado para eliminarla.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para eliminar una rama local?  
-- �Es posible recuperar una rama eliminada?
+- eQue comando usas para eliminar una rama local?  
+- eEs posible recuperar una rama eliminada?
 
 ---
 
@@ -292,8 +292,8 @@ Elimina una rama remota que ya no necesitas.
 2. Usa el comando adecuado para eliminarla desde el repositorio remoto.  
 
 **Preguntas a responder:**  
-- �C�mo puedes eliminar una rama remota?  
-- �Qu� precauciones debes tomar antes de eliminar una rama remota?
+- eCemo puedes eliminar una rama remota?  
+- eQue precauciones debes tomar antes de eliminar una rama remota?
 
 ---
 
@@ -304,12 +304,12 @@ principal.
 **Instrucciones Detalladas:**  
 1. Trabaja en una rama nueva y realiza algunos cambios.  
 2. Sube tus cambios al repositorio remoto.  
-3. Crea una pull request en GitHub para solicitar la fusi�n de tu rama con la rama 
+3. Crea una pull request en GitHub para solicitar la fusien de tu rama con la rama 
 principal.  
 
 **Preguntas a responder:**  
-- �Qu� es una pull request y para qu� sirve?  
-- �Qu� informaci�n debes incluir en una pull request?
+- eQue es una pull request y para que sirve?  
+- eQue informacien debes incluir en una pull request?
 
 ---
 
@@ -322,22 +322,22 @@ propuestos.
 2. Lee los cambios propuestos y deja comentarios relevantes.  
 
 **Preguntas a responder:**  
-- �C�mo puedes revisar una pull request en GitHub?  
-- �Qu� tipo de comentarios son �tiles en una revisi�n?
+- eCemo puedes revisar una pull request en GitHub?  
+- eQue tipo de comentarios son etiles en una revisien?
 
 ---
 
-### **Ejercicio 28: Fusi�n Autom�tica de una Pull Request**
-Fusiona autom�ticamente una pull request que no tiene conflictos.
+### **Ejercicio 28: Fusien Autometica de una Pull Request**
+Fusiona autometicamente una pull request que no tiene conflictos.
 
 **Instrucciones Detalladas:**  
 1. Encuentra una pull request sin conflictos en tu repositorio.  
-2. Usa la interfaz de GitHub para fusionarla autom�ticamente con la rama 
+2. Usa la interfaz de GitHub para fusionarla autometicamente con la rama 
 principal.  
 
 **Preguntas a responder:**  
-- �Cu�ndo puedes fusionar una pull request autom�ticamente?  
-- �Qu� sucede despu�s de fusionar una pull request?
+- eCuendo puedes fusionar una pull request autometicamente?  
+- eQue sucede despues de fusionar una pull request?
 
 ---
 
@@ -345,13 +345,13 @@ principal.
 Descarta accidentalmente cambios locales que no quieres guardar.
 
 **Instrucciones Detalladas:**  
-1. Modifica un archivo local sin a�adirlo al �rea de preparaci�n.  
+1. Modifica un archivo local sin aeadirlo al erea de preparacien.  
 2. Usa el comando adecuado para descartar estos cambios y restaurar el archivo a 
 su estado anterior.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para descartar cambios locales?  
-- �Cu�ndo es �til descartar cambios locales?
+- eQue comando usas para descartar cambios locales?  
+- eCuendo es etil descartar cambios locales?
 
 ---
 
@@ -361,26 +361,26 @@ Restaura tu repositorio a un commit anterior.
 **Instrucciones Detalladas:**  
 1. Identifica un commit anterior en el historial de commits.  
 2. Usa el comando adecuado para restaurar tu repositorio a ese commit 
-espec�fico.  
+especefico.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para restaurar un commit anterior?  
-- �Qu� precauciones debes tomar al restaurar un commit anterior?
+- eQue comando usas para restaurar un commit anterior?  
+- eQue precauciones debes tomar al restaurar un commit anterior?
 
 ---
 
-### **Ejercicio 31: Crear un Tag para Marcar una Versi�n**
-Crea un tag para marcar una versi�n espec�fica de tu proyecto.
+### **Ejercicio 31: Crear un Tag para Marcar una Versien**
+Crea un tag para marcar una versien especefica de tu proyecto.
 
 **Instrucciones Detalladas:**  
 1. Elige un commit en el historial de tu repositorio que quieras marcar como una 
-versi�n importante (por ejemplo, `v1.0`).  
+versien importante (por ejemplo, `v1.0`).  
 2. Usa el comando adecuado para crear un tag asociado a ese commit.  
 3. Verifica que el tag ha sido creado correctamente.  
 
 **Preguntas a responder:**  
-- �Qu� es un tag en Git y para qu� sirve?  
-- �C�mo puedes crear un tag asociado a un commit espec�fico?
+- eQue es un tag en Git y para que sirve?  
+- eCemo puedes crear un tag asociado a un commit especefico?
 
 ---
 
@@ -388,14 +388,14 @@ versi�n importante (por ejemplo, `v1.0`).
 Enumera todos los tags existentes en tu repositorio.
 
 **Instrucciones Detalladas:**  
-1. Escribe el comando que te permitir� listar todos los tags disponibles en tu 
+1. Escribe el comando que te permitire listar todos los tags disponibles en tu 
 repositorio.  
-2. Observa la salida del comando y aseg�rate de que puedas identificar los tags 
+2. Observa la salida del comando y asegerate de que puedas identificar los tags 
 que has creado.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para listar todos los tags en Git?  
-- �Por qu� es �til tener tags en un proyecto?
+- eQue comando usas para listar todos los tags en Git?  
+- ePor que es etil tener tags en un proyecto?
 
 ---
 
@@ -403,13 +403,13 @@ que has creado.
 Sube los tags locales al repositorio remoto en GitHub.
 
 **Instrucciones Detalladas:**  
-1. Selecciona uno o m�s tags locales que quieras compartir con el repositorio 
+1. Selecciona uno o mes tags locales que quieras compartir con el repositorio 
 remoto.  
 2. Usa el comando adecuado para subir estos tags al repositorio remoto.  
 
 **Preguntas a responder:**  
-- �C�mo puedes subir tags locales a un repositorio remoto?  
-- �Qu� pasa si intentas subir un tag que ya existe en el repositorio remoto?
+- eCemo puedes subir tags locales a un repositorio remoto?  
+- eQue pasa si intentas subir un tag que ya existe en el repositorio remoto?
 
 ---
 
@@ -417,18 +417,18 @@ remoto.
 Descarga los tags existentes desde el repositorio remoto.
 
 **Instrucciones Detalladas:**  
-1. Aseg�rate de estar conectado al repositorio remoto en GitHub.  
+1. Asegerate de estar conectado al repositorio remoto en GitHub.  
 2. Usa el comando adecuado para descargar todos los tags disponibles en el 
 repositorio remoto.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para descargar tags desde un repositorio remoto?  
-- �Cu�ndo ser�a �til descargar tags desde un repositorio remoto?
+- eQue comando usas para descargar tags desde un repositorio remoto?  
+- eCuendo serea etil descargar tags desde un repositorio remoto?
 
 ---
 
 ### **Ejercicio 35: Revertir un Commit**
-Revierte un commit espec�fico sin perder los commits posteriores.
+Revierte un commit especefico sin perder los commits posteriores.
 
 **Instrucciones Detalladas:**  
 1. Identifica un commit en el historial que quieras revertir.  
@@ -436,23 +436,23 @@ Revierte un commit espec�fico sin perder los commits posteriores.
 que deshaga los cambios realizados.  
 
 **Preguntas a responder:**  
-- �Qu� diferencia hay entre revertir un commit y eliminarlo del historial?  
-- �Por qu� es �til usar `revert` en lugar de simplemente eliminar un commit?
+- eQue diferencia hay entre revertir un commit y eliminarlo del historial?  
+- ePor que es etil usar `revert` en lugar de simplemente eliminar un commit?
 
 ---
 
 ### **Ejercicio 36: Eliminar un Commit del Historial**
-Elimina un commit espec�fico del historial de tu repositorio.
+Elimina un commit especefico del historial de tu repositorio.
 
 **Instrucciones Detalladas:**  
 1. Identifica un commit en el historial que quieras eliminar permanentemente.  
 2. Usa un comando avanzado para modificar el historial y eliminar este commit.  
-3. Ten cuidado, ya que esta operaci�n puede afectar a otros desarrolladores si el 
+3. Ten cuidado, ya que esta operacien puede afectar a otros desarrolladores si el 
 repositorio es compartido.  
 
 **Preguntas a responder:**  
-- �Qu� comando puedes usar para eliminar un commit del historial?  
-- �Cu�ndo es seguro usar este comando en un repositorio compartido?
+- eQue comando puedes usar para eliminar un commit del historial?  
+- eCuendo es seguro usar este comando en un repositorio compartido?
 
 ---
 
@@ -465,23 +465,23 @@ nueva`).
 2. Usa el comando adecuado para comparar los cambios entre estas dos ramas.  
 
 **Preguntas a responder:**  
-- �Qu� comando usas para comparar ramas en Git?  
-- �Qu� informaci�n muestra esta comparaci�n?
+- eQue comando usas para comparar ramas en Git?  
+- eQue informacien muestra esta comparacien?
 
 ---
 
-### **Ejercicio 38: Deshacer Cambios en un Archivo Espec�fico**
-Deshaz accidentalmente los cambios realizados en un archivo espec�fico sin 
+### **Ejercicio 38: Deshacer Cambios en un Archivo Especefico**
+Deshaz accidentalmente los cambios realizados en un archivo especefico sin 
 afectar otros archivos.
 
 **Instrucciones Detalladas:**  
-1. Modifica un archivo en tu repositorio sin a�adirlo al �rea de preparaci�n.  
+1. Modifica un archivo en tu repositorio sin aeadirlo al erea de preparacien.  
 2. Usa el comando adecuado para restaurar este archivo a su estado anterior sin 
 afectar otros archivos modificados.  
 
 **Preguntas a responder:**  
-- �C�mo puedes deshacer cambios en un archivo espec�fico?  
-- �Qu� ventajas tiene esta t�cnica sobre descartar todos los cambios locales?
+- eCemo puedes deshacer cambios en un archivo especefico?  
+- eQue ventajas tiene esta tecnica sobre descartar todos los cambios locales?
 
 ---
 
@@ -491,9 +491,9 @@ Crea un alias para simplificar comandos frecuentes en Git.
 **Instrucciones Detalladas:**  
 1. Selecciona un comando Git que uses con frecuencia (por ejemplo, `git status`).  
 2. Crea un alias personalizado para este comando usando el comando de 
-configuraci�n de Git.  
+configuracien de Git.  
 3. Prueba tu nuevo alias para asegurarte de que funciona correctamente.  
 
 **Preguntas a responder:**  
-- �Qu� es un alias en Git y para qu� sirve?  
-- �C�mo puedes crear un alias personalizado para un comando Git?
+- eQue es un alias en Git y para que sirve?  
+- eCemo puedes crear un alias personalizado para un comando Git?
