@@ -82,16 +82,16 @@ Preguntas a responder:
 	En resumen, mensajes de commit claros y descriptivos mejoran la mantenibilidad, colaboración y
 	eficiencia en el desarrollo de software.
 
-********************
+
 
 
 Ejercicio 8: Ver el Historial de Commits
 Preguntas a responder:  
-- eQue comando usas para ver el historial de commits?
+- ¿Que comando usas para ver el historial de commits?
 	git log
 	git log --oneline 
-- eQue informacien muestra el historial de commits?
-	El historial de commits en Git muestra la siguiente informacien para cada commit:
+- ¿Qué información muestra el historial de commits?
+	El historial de commits en Git muestra la siguiente información para cada commit:
 	1. Hash del Commit:
 	2. Autor:
 	3. Fecha:
@@ -101,9 +101,9 @@ Preguntas a responder:
 
 Ejercicio 9: Crear una Nueva Rama
 Preguntas a responder:
-- eQue comando usas para crear una nueva rama en Git?
+- ¿Que comando usas para crear una nueva rama en Git?
 	git branch nombre_de_la_rama
-- eQue diferencia hay entre crear una rama y moverte a ella?
+- ¿Que diferencia hay entre crear una rama y moverte a ella?
 	Crear una rama y moverte a ella son dos acciones distintas en Git.
 	Crear una rama solo establece una nueva rama en el repositorio, mientras que moverte a una 	rama cambia tu contexto de trabajo a esa rama.
 
@@ -123,29 +123,29 @@ Preguntas a responder:
 
 Ejercicio 11: Cambiar a una Rama Existente
 Preguntas a responder:  
-- eQue comando usas para cambiar de rama?
+- ¿Que comando usas para cambiar de rama?
 	git switch nombre_de_la_rama
 	git checkout nombre_de_la_rama (Veriones Mas Antiguas)
-- eCemo puedes confirmar en que rama estes trabajando?
+- ¿Cómo puedes confirmar en que rama estes trabajando?
 	git branch
 
 
 
-Ejercicio 12: Crear y Cambiar a una Nueva Rama en un Solo Paso**
+Ejercicio 12: Crear y Cambiar a una Nueva Rama en un Solo Paso
 Preguntas a responder:
 - eQue comando permite crear y cambiar a una nueva rama en un solo paso?
 	git switch -c nombre_de_la_nueva_rama
 	git checkout -b nombre_de_la_nueva_rama
 - eCuel es la ventaja de usar este comando?
 	Eficiencia.
-	Reduccien de Errores
+	Reducción de Errores
 	Simplicidad
 	Consistencia
 	En resumen, estos comandos mejoran la productividad y la claridad en el manejo de ramas en 	Git.
 
 
 
-Ejercicio 13: Aeadir Archivos al erea de Preparacien con un Comando Abreviado
+Ejercicio 13: Añadir Archivos al Área de Preparación con un Comando Abreviado
 Preguntas a responder: 
 - eQue comando abreviado puedes usar para aeadir todos los cambios al erea de 
 preparacien? 
