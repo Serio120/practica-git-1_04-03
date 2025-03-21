@@ -14,6 +14,7 @@ Preguntas a responder:
 
 
 
+
 Ejercicio 2: Crear un Directorio de Trabajo
 Preguntas a responder:
 - ¿Que comando usas para crear un nuevo directorio?
